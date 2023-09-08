@@ -1,6 +1,6 @@
 name: model_soups
 channels:
-  - pytorch
+  - pytorch==1.8
   - defaults
 dependencies:
   - astroid=2.6.6=py36h06a4308_0
@@ -48,7 +48,7 @@ dependencies:
   - sqlite=3.38.3=hc218d9a_0
   - tk=8.6.11=h1ccaba5_1
   - toml=0.10.2=pyhd3eb1b0_0
-  - torchvision=0.8.2=py36_cu110
+  - torchvision=0.9.0=py36_cu110
   - typed-ast=1.4.3=py36h7f8727e_1
   - typing-extensions=4.1.1=hd3eb1b0_0
   - typing_extensions=4.1.1=pyh06a4308_0
@@ -59,7 +59,7 @@ dependencies:
   - zstd=1.4.9=haebb681_0
   - pip:
     - charset-normalizer==2.0.12
-    - clip
+    - clip==1.0
     - cycler==0.11.0
     - ftfy==6.0.3
     - idna==3.3
