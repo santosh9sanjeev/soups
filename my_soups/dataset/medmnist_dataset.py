@@ -1,5 +1,6 @@
 import medmnist
-
+import random
+random.seed(42)
 class PneumoniaDataset:
     def __init__(self, download=True):
         self.download = download

@@ -129,3 +129,13 @@ dmypy.json
 .pyre/
 .vscode
 .idea
+
+
+#my_soups
+my_soups/rsna_18
+my_soups/data
+my_soups/logs
+experiments
+my_soups/checkpoints
+
+*zip
